@@ -7,13 +7,13 @@ You have several options for hosting your containerized Node.js/React applicatio
 ## Option 1: Serverless Approach (Recommended for most cases)
 
 **Resources Needed:**
-- **Amazon ECR (Elastic Container Registry)**: To store your container images
+- **Amazon ECR (Elastic Container Registry)**: To store your container images `m2.7 ebs-ec2`
 - **AWS Fargate (with ECS)**: For serverless container execution
   - Or **AWS App Runner**: Even simpler than ECS for containers
-- **Application Load Balancer**: If you need load balancing
-- **Amazon DocumentDB (MongoDB compatible)**: Fully managed MongoDB alternative
-  - Or **Atlas MongoDB on AWS**: MongoDB's managed service
-- **AWS Secrets Manager**: For storing database credentials
+- **Application Load Balancer**: If you need load balancing `m2.9 WAF with ALB`
+- **Amazon DocumentDB (MongoDB compatible)**: Fully managed MongoDB alternative `m2.5 RDS m2.6 DynamoDB`
+  - Or **Atlas MongoDB on AWS**: MongoDB's managed service `m2.5 DBaaS`
+- **AWS Secrets Manager**: For storing database credentials `m2.15 Secrets Mgr`
 - **Amazon CloudFront**: For CDN and caching static assets
 - **Amazon Route 53**: For DNS management (optional)
 
