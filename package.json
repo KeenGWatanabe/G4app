@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KeenGWatanabe/G4app/issues"
   },
-  "homepage": "https://github.com/KeenGWatanabe/G4app#readme"
+  "homepage": "https://github.com/KeenGWatanabe/G4app#readme",
+  "dependencies": {
+    "mongodb": "^6.16.0"
+  }
 }
