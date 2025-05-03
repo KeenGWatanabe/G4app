@@ -24,4 +24,7 @@ user:user pw:****
 # youtube connect to DB at 56:23 min - 1:08 hr
 https://www.youtube.com/watch?v=jIsj0upCBAM&t=3383s
 
+# database verification on Mongo Atlas
+https://youtu.be/9CutwMKaRKI
+
 In order to run the project, setup .env and set MONGO_URI variable equal to DB connection string.
