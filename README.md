@@ -1,5 +1,10 @@
+# check node version
+node -v
+# if missing 
+nvm install <version>
+nvm use <version>
+
 # dependency
-npm install nodejs
 npm install express 
 npm install mongodb 
 npm install mongoose 
