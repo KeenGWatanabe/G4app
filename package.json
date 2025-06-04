@@ -16,6 +16,7 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
+    "test": "echo \"No tests configured\" && exit 0",
     "start": "nodemon app.js"
   },
   "dependencies": {
